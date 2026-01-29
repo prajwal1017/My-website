@@ -11,7 +11,7 @@ const CONFIG = {
       'Cybersecurity Engineer specializing in Penetration Testing, SIEM Operations, Cloud Security, Incident Response, and Regulatory Compliance.',
   },
 
-  base: '/',
+  base: '/My-website/',
   projectsPerPage: 4,
 
   // Bio will be fetched from GitHub profile
