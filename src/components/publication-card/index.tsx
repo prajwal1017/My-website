@@ -1,4 +1,4 @@
-import { Fragment } from 'react';
+import { Fragment, ReactNode } from 'react';
 import { AiOutlineBook } from 'react-icons/ai';
 import { FaQuoteLeft } from 'react-icons/fa';
 import { HiOutlineTrophy } from 'react-icons/hi2';
@@ -30,7 +30,7 @@ const PublicationCard = ({
   // Define section order and icons
   const sectionConfig: Record<
     string,
-    { icon: JSX.Element; subtitle: string }
+    { icon: ReactNode; subtitle: string }
   > = {
     'Blogs & Publications': {
       icon: <AiOutlineBook className="text-2xl" />,

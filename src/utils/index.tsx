@@ -126,7 +126,12 @@ export const getSanitizedConfig = (
         displayAvatarRing: config?.themeConfig?.displayAvatarRing ?? true,
         themes: config?.themeConfig?.themes || DEFAULT_THEMES,
       },
-      footer: config?.footer?.text || config?.footer || '',
+      footer:
+        typeof config?.footer === 'object' && config?.footer !== null
+          ? (config.footer as { text?: string }).text || ''
+          : typeof config?.footer === 'string'
+            ? config.footer
+            : '',
       enablePWA: config?.enablePWA ?? true,
     };
   } catch (error) {
