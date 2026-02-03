@@ -21,7 +21,7 @@ const CONFIG = {
     {
       company: 'Tesco Ireland',
       position: 'Customer Service Representative (IT Support Focus)',
-      from: 'September 2023',
+      from: 'October 2023',
       to: 'Present',
       companyLink: 'https://www.tesco.ie/',
       description: [
