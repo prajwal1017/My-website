@@ -30,13 +30,13 @@ const CONFIG = {
         'Performed stock detailing and inventory validation, using digital systems to update stock levels, verify pricing accuracy, and ensure correct product information across store databases.',
         'Oversaw price verification and system updates, identifying inconsistencies between shelf labels and digital pricing systems and correcting them to maintain compliance and accuracy.',
         'Supported operational systems such as Whoosh delivery terminals and store software, ensuring accurate order processing, monitoring alerts, and maintaining reliable technical workflow during shifts.',
-      ],
+      ], 
     },
     {
       company: 'EVenu Computers',
       position: 'Information Technology Support Engineer',
-      from: 'February 2021',
-      to: 'August 2023',
+      from: 'November 2022',
+      to: 'January 2024',
       companyLink: 'http://www.evenugroup.com/',
       description: [
         'Provided L1/L2 IT support following ITIL processes for incident, problem, and change management',
